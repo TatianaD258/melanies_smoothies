@@ -68,7 +68,7 @@ if ingredients_list :
 
 #st.write(my_insert_stmt)
 
-smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-#st.text(smoothiefroot_response.json())
-st_df = st.dataframe(data=moothiefroot_response.json(), use_container_width=True)
+    smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+    #st.text(smoothiefroot_response.json())
+    st_df = st.dataframe(data=moothiefroot_response.json(), use_container_width=True)
 
